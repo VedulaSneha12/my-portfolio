@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-image: url('https://img.freepik.com/free-vector/blue-curve-background_53876-113112.jpg');
+            background-size: cover;
+        }
+
+        #staticBackdrop {
+            background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210324/pngtree-abstract-playful-portfolio-pink-memphis-image_593415.jpg')
+        }
+        #result{
+            display: none;
+        }
+        .portfolio-section {
+            margin-bottom: 20px;
+        }
+        .portfolio-section h3 {
+            margin-bottom: 10px;
+        }
+        .portfolio-content {
+            margin-left: 20px;
+            font-size: 16px;
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+<div class="row fw-bold text-white bg-black">
+    <div class="col-4">
+        <ul class="nav justify-content-start ps-3">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">VEDULA KAMESWARI SAI LAKSHMKI SNEHA</a>
+            </li>
+    </div>
+    <div class="col-8">
+        <ul class="nav nav-tabs justify-content-end pe-5" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="skills-tab" data-bs-toggle="tab" data-bs-target="#skills-tab-pane"
+                        type="button" role="tab" aria-controls="skills-tab-pane" aria-selected="true">Skills
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="portfolio-tab" data-bs-toggle="tab" data-bs-target="#portfolio-tab-pane"
+                        type="button" role="tab" aria-controls="portfolio-tab-pane" aria-selected="false">Portfolio
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="About-tab" data-bs-toggle="tab" data-bs-target="#About-tab-pane"
+                        type="button" role="tab" aria-controls="About-tab-pane" aria-selected="false">About
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="CurriculumVitae-tab" data-bs-toggle="tab"
+                        data-bs-target="#CurriculumVitae-tab-pane" type="button" role="tab"
+                        aria-controls="CurriculumVitae-tab-pane" aria-selected="false">Curriculum Vitae
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="Contact-tab" data-bs-toggle="tab" data-bs-target="#Contact-tab-pane"
+                        type="button" role="tab" aria-controls="Contact-tab-pane" aria-selected="true">Contact
+                </button>
+            </li>
+        </ul>
+    </div>
+</div>
+<center>
+    <div class="pt-5 text-dark">
+        <i>VEDULA KAMESWARI SAI LAKSHMI SNEHA</i>
+        <h2 class="pt-3">Computer Science And Engineering</h2>
+        <h2 class="container-lg pt-3">Graduate</h2>
+        
+    </div>
+</center>
+<div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active justify-content-center" id="skills-tab-pane" role="tabpanel"
+         aria-labelledby="skills-tab" tabindex="0">
+        <h3 class="mt-5">Skills</h3>
+        <p class="text-muted mt-1">Continuously improving my skills and knowledge</p>
+        <div class="container align-item-center">
+            <div class="row justify-content-between">
+                <div class="col-3 rounded border border-3 border-primary pt-3 pb-3" style="height:300px;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcuIrl6srRGyilIU_1aw9_msvRxDGeMBGF4A&s.png"
+                         style="width:100px;height:50px;"></img>
+                    <h4>Front-end development</h4>
+                    <p>Proficient in HTML,CSS,JavaScript,Angular and Bootstrap</p>
+                </div>
+                <div class="col-3 rounded border border-3 border-primary pt-3 pb-3" style="height:300px;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7VS4DcfV4-gOxvgwrROlBpl1LJFcYHgeoI8diD3zWIA&s"
+                         style="width:100px;height:50px;"></img>
+                    <h4>Back-end development</h4>
+                    <p>proficient in Python Programming and Django.</p>
+                </div>
+                <div class="col-3 rounded border border-3 border-primary pt-3 pb-3" style="height:300px;">
+                    <img src="https://bs-uploads.toptal.io/blackfish-uploads/components/seo/content/og_image_file/og_image/1282569/0712-Bad_Practices_in_Database_Design_-_Are_You_Making_These_Mistakes_Dan_Social-754bc73011e057dc76e55a44a954e0c3.png"
+                         style="width:100px;height:50px;"></img>
+                    <h4>Database</h4>
+                    <p>Proficient in MYSQL and basic Knowledge on AWS Cloud Computing</p>
+                </div>
+                <div class="col-3 rounded border border-3 border-primary pt-3 pb-3" style="height:300px;">
+                    <img src="https://bs-uploads.toptal.io/blackfish-uploads/components/seo/content/og_image_file/og_image/1282569/0712-Bad_Practices_in_Database_Design_-_Are_You_Making_These_Mistakes_Dan_Social-754bc73011e057dc76e55a44a954e0c3.png"
+                         style="width:100px;height:50px;"></img>
+                    <h4> Soft Skills and Personal Qualities</h4>
+                    <p>Strong communication and interpersonal skills.
+                        Ability to work independently and collaboratively in a team environment.
+                        Hardworking and Self-Motivated</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tab-pane fade" id="portfolio-tab-pane" role="tabpanel" aria-labelledby="portfolio-tab"
+         tabindex="0">
+            <h3>Portfolio</h3>
+            <p>A collection of tasks that I have done</p>
+            <div class="container align-item-center">
+                <div class="row justify-content-between">
+                    <div class="col-3">
+                        <a href="https://drive.google.com/file/d/1VjkzZbwj77Obw_ln8ji-YR6BruvqR4V8/view?usp=sharing" target="_blank">View screenshot </a>
+                        <h6>Ecommerce</h6>
+                        <p style="border:3px solid black;background-color:aqua">Building an e-commerce application using Angular involves creating a dynamic and responsive platform for buying and selling products. Key features include product catalog management, user authentication, shopping cart functionality, and a secure checkout process. Angular's modular architecture, combined with services and components</p>
+                    </div>
+                    <div class="col-3">
+                        <a href="https://drive.google.com/file/d/1dMk_0mjaC9XSYzN83LvAfi3fadIKBhCW/view?usp=sharing" target="_blank">View screenshot </a>
+                        <h6>Smart Wearable For Women Safety Using Iot</h6>
+                        <p style="border:3px solid black;background-color:aqua">In this project, we created a smart device for women safety which
+                            automates the emergency alert system by using sensors like pressure sensor,temperature sensor,pulse-rate sensor to detect a
+                            possible atrocity.
+                            </p>
+                    </div>
+                    <div class="col-3">
+                        <h6>Restaurant Website</h6>
+                        <p style="border:3px solid black;background-color:aqua">Used Django as backend and Html,css and js in frontend with postgres sql as database where the website contains all the menu items and order delivery option sent through smtp gateway for mailings</p>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+       
+    </div>
+    <div class="tab-pane fade" id="About-tab-pane" role="tabpanel" aria-labelledby="About-tab" tabindex="0">
+        <center>
+            <button class="btn btn-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
+                    aria-controls="staticBackdrop">
+                MY ABOUT
+            </button>
+        </center>
+        <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+             aria-labelledby="staticBackdropLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title text-danger" id="staticBackdropLabel">IT'S ABOUT ME</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <center><img
+                        src="https://cdn1.vectorstock.com/i/1000x1000/25/70/user-icon-woman-profile-human-avatar-vector-10552570.jpg"
+                        style="width:150px;height:100px"></center>
+                <div class="row mt-2 gx-0">
+                    <div class="col-3">
+                        <div class="card mb-3" style="width: 20rem;height:300px;">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">Hello,I'm Sneha</h5>
+                                <p class="card-text text-info bg-dark">I completed my Graduation in 2023.I have good
+                                    comunication skills as well as technical skills too.My hobbies are reading books and
+                                    listening music and cooking.my short term goal is to be placed in a good company
+                                    to enhace my skills and knowledge and my long term goal is to be in a respectable
+                                    position in my field of work</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><br>
+    <div class="tab-pane fade" id="CurriculumVitae-tab-pane" role="tabpanel" aria-labelledby="CurriculumVitae-tab"
+         tabindex="0">
+        <center><button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                         data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">My Curriculum Vitae
+            </button></center>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" style="background-color:lightblue"
+             aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body" id="form">
+                <form id="infoForm">
+                    <label for="obj1"><h3><b>OBJECTIVE</b></h3></label>
+                    <pre>To get an opportunity where I can make the best of my potential and contribute to the organization's growth.</pre>
+                    <hr>
+                    
+                    <label for="edu"><h3><b>EDUCATION</b></h3></label>
+                    <div id="edu">
+                        <p id="edu1"><b>DADI INSTITUTE OF ENGINEERING AND TECHNOLOGY</b><br>
+                            Bachelor of Technology (2019-2023)<br>
+                            Computer Science and Engineering – 8.03 CGPA</p>
+                        <p id="edu2"><b>NARAYANA JUNIOR COLLEGE</b><br>
+                            Intermediate (2017-2019)<br>
+                            M.P.C –9.88 CGPA<br>
+                        <p id="edu3"><b>ST MARY'S EM HIGH SCHOOL</b><br>
+                            Board of SSC (2017) — 9.7 CGPA</p>
+                    </div>
+                    <hr>
+                    
+                    <label for="str"><h3><b>STRENGTHS</b></h3></label>
+                    <div id="str">
+                        <p id="str1">Self-Motivated</p>
+                        <p id="str2">Team-Oriented</p>
+                        <p id="str3">Responsible</p>
+                        <p id="str4">Hard working</p>
+                    </div>
+                    <hr>
+                    
+                    <label for="skill"><h3><b> Technical SKILLS</b></h3></label>
+                    <div id="skill">
+                        <p id="skill1">HTMl & CSS</p>
+                        <p id="skill2">Javascript</p>
+                        <p id="skill2">Bootstrap</p>
+                        <p id="skill3">Angular</p>
+                        <p id="skill4">Python Programming</p>
+                    </div>
+                    <hr>
+                    <label for="skill"><h3><b> SOFT SKILLS</b></h3></label>
+                    <div id="skill">
+                        <p id="skill1">Strong communication and interpersonal skills.</p>
+                        <p id="skill2">Ability to work independently</p>
+                        <p id="skill2">collaborative nature</p>
+                    </div>
+                    <hr>
+                    <label for="skill"><h3><b>PROJECTS</b></h3></label>
+                    <div id="projects">
+                        <p id="project1">SMART WEARABLE DEVICE FOR WOMEN SAFETY USING
+                            IOT</p>
+                        <p id="project2">Ecommerce Project</p>
+                       
+                    </div>
+                    <hr>
+                    <label for="cer"><h3><b>CERTIFICATIONS</b></h3></label>
+                    <div id="cer">
+                        <p id="cer1">Certification from INTERNSHALA Trainings on Python
+                            Programming.</p>
+                        <p id="cer2">Certification from Microsoft Technology Associate on
+                            Introduction to Programming using Python</p>
+                        <p id="cer3">AWS virtual internship certificate from AICTE
+                            EDUSKILLS.
+                            </p>
+                    </div>
+                    <hr>
+                    
+                    <label for="dec"><h3><b>DECLARATIONS</b></h3></label>
+                    <div id="dec">
+                        <p id="dec">I hereby declare that the above particulars of
+                            information are true to the best of my knowledge.</p>
+                    </div>
+                    
+                </form>
+            </div>
+
+            <!-- <div id="result">
+                <h4>Data Submitted Successfully</h4>
+                <p id="displayinfo"></p>
+            </div> -->
+
+            <!-- <script>
+                document.getElementById('infoForm').addEventListener('submit',function(event)
+                {
+                    event.preventDefault();
+                    var obj1=document.getElementById('obj1').value;
+                    var edu1=document.getElementById('edu1').value;
+                    var edu2=document.getElementById('edu2').value;
+                    var edu3=document.getElementById('edu3').value;
+                    var str1=document.getElementById('str1').value;
+                    var str2=document.getElementById('str2').value;
+                    var str3=document.getElementById('str3').value;
+                    var str4=document.getElementById('str4').value;
+                    var skill1=document.getElementById('skill1').value;
+                    var skill2=document.getElementById('skill2').value;
+                    var skill3=document.getElementById('skill3').value;
+                    var skill4=document.getElementById('skill4').value;
+                    var skill5=document.getElementById('skill5').value;
+                    var cer1=document.getElementById('cer1').value;
+                    var cer2=document.getElementById('cer2').value;
+                    var cer3=document.getElementById('cer3').value;
+                    var dec=document.getElementById('dec').value;
+                    var displayinfo=document.getElementById('displayinfo');
+
+                    displayinfo.innerHTML="<h4>objective :</h4>"+obj1+"<br>"+"<h4>Education :</h4>"+edu1+"<br>"+edu2+"<br>"+edu3+"<br>"+"<h4>Strength :</h4>"+str1+"<br>"+str2+"<br>"+str3+"<br>"+str4+"<br>"+"<h4>skills :</h4>"+skill1+"<br>"+skill2+"<br>"+skill3+"<br>"+skill4+"<br>"+skill5+"<br>"
+                    +"<h4>Certificates :</h4>"+cer1+"<br>"+cer2+"<br>"+cer3+"<br>"+"<h4>Declaration</h4>"+dec;
+
+                    document.getElementById('form').style.display='none';
+                    document.getElementById('result').style.display='block';
+
+
+
+
+                });
+            </script> -->
+               
+
+</body>
+            </div>
+        </div>
+    </div><br>
+    <div class="tab-pane fade" id="Contact-tab-pane" role="tabpanel" aria-labelledby="Contact-tab" tabindex="0">
+        <center><button class="btn btn-danger" type="button" data-bs-toggle="offcanvas"
+                         data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Contact   Details</button>
+        </center><br><br>
+        <div class="offcanvas offcanvas-top bg-black text-white" tabindex="-1" id="offcanvasTop"
+             aria-labelledby="offcanvasTopLabel">
+            <div class="offcanvas-header">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <form>
+                    <h3>MY CONTACT INFO</h3>
+                    <div class="mb-3">
+                        <label for="exampleInputph" class="form-label">Contact Number:</label>
+                        <span>8074940714</span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputemail" class="form-label">Email-id:</label>
+                        <span>sneha2001vedula@gmail.com</span>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputaddress" class="form-label">Enter Your Address:</label>
+                        <span>Srinivasa Sadan, Station Road, Opp. Montessori school, yellamanchili
+                            Vishakapatnam,531055</span>
+                    </div>
+                   
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
